@@ -19,7 +19,7 @@ resource "aws_subnet" "private" {
   
 }
 
-resource "aws_subnet" "date" {
+resource "aws_subnet" "data" {
     vpc_id = aws_vpc.lab_vpc.id
     cidr_block = var.cidr_data
 
